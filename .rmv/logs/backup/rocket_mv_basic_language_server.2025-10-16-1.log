@@ -1,0 +1,196 @@
+2025-10-16 15:18:21.632 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2025-10-16 15:18:21.648 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2025-10-16 15:18:21.751 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2025-10-16 15:18:21.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2025-10-16 15:18:21.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Users/Usuario/OneDrive/Ana%20Ruth%20Zam/Ruth%20Zambrano
+2025-10-16 15:18:21.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Users/Usuario/OneDrive/Ana%20Ruth%20Zam/Ruth%20Zambrano
+2025-10-16 15:18:21.830 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Users/Usuario/OneDrive/Ana%20Ruth%20Zam/Ruth%20Zambrano
+2025-10-16 15:18:21.846 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2025-10-16 15:18:21.846 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.rmv/config
+2025-10-16 15:18:21.846 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2025-10-16 15:18:21.846 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/Usuario
+2025-10-16 15:18:21.862 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2025-10-16 15:18:21.862 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2025-10-16 15:18:21.862 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2025-10-16 15:18:21.862 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Users\Usuario\OneDrive\Ana Ruth Zam\Ruth Zambrano\.rmv\documentation\UNIVERSE\custom.json
+2025-10-16 15:18:21.878 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\Usuario\documentation\UNIVERSE\custom.json
+2025-10-16 15:18:21.947 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2025-10-16 15:18:21.947 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano) load start
+2025-10-16 15:18:21.960 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2025-10-16 15:18:22.092 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2025-10-16 15:18:22.092 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2025-10-16 15:18:22.099 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2025-10-16 15:18:22.099 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2025-10-16 15:18:22.099 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano) load end
+2025-10-16 15:18:22.099 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/config/capability) doesn't exist or read error, default config will take effect
+2025-10-16 15:18:22.099 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2025-10-16 15:18:22.099 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2025-10-16 15:18:22.115 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2025-10-16 15:18:22.115 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2025-10-16 15:18:22.163 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Ruth Zambrano account
+2025-10-16 15:18:22.163 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Ruth Zambrano, its period 5s 
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for .git, its period 5s 
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for logs, its period 5s 
+2025-10-16 15:18:22.179 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for objects, its period 5s 
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 15:18:22.195 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2025-10-16 15:18:22.210 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=Ruth Zambrano, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano, type=PREDICT}
+Account{name=remotes, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/logs/refs/remotes, type=PREDICT}
+Account{name=refs, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/refs, type=PREDICT}
+Account{name=.git, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git, type=PREDICT}
+Account{name=remotes, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/refs/remotes, type=PREDICT}
+Account{name=logs, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/logs, type=PREDICT}
+Account{name=refs, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/logs/refs, type=PREDICT}
+Account{name=objects, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/objects, type=PREDICT}
+2025-10-16 15:18:22.210 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2025-10-16 15:18:22.210 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\Usuario/.rmv/config) watcher launch successful
+2025-10-16 15:18:35.333 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:18:36.614 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:22:19.167 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:23:11.546 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:23:19.742 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:23:26.126 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:23:28.197 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:23:32.963 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:23:34.581 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:23:42.623 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:25:05.909 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:25:33.561 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:25:35.678 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:25:45.796 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:25:50.619 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:25:54.402 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:32:12.205 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:32:13.577 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:32:16.849 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:34:06.086 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:34:10.947 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:35:30.041 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:35:32.143 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:35:36.815 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:35:38.427 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:37:22.772 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:37:25.871 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:37:31.406 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:37:34.777 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:37:41.718 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:37:54.321 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:39:37.414 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:39:46.096 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:45:03.232 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:45:10.703 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:45:54.688 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:46:15.066 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:46:48.345 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:46:50.747 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:50:22.210 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:50:26.384 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:51:02.765 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:51:13.435 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 15:51:32.738 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 15:51:34.405 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 16:40:22.967 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 16:40:55.681 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/tabla.html)
+2025-10-16 16:40:59.423 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 16:41:12.504 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 17:09:03.768 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 17:11:43.909 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 17:25:08.120 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
+2025-10-16 19:24:14.476 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2025-10-16 19:24:14.536 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2025-10-16 19:24:14.820 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2025-10-16 19:24:15.006 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2025-10-16 19:24:15.009 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Users/Usuario/OneDrive/Ana%20Ruth%20Zam/Ruth%20Zambrano
+2025-10-16 19:24:15.009 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Users/Usuario/OneDrive/Ana%20Ruth%20Zam/Ruth%20Zambrano
+2025-10-16 19:24:15.053 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Users/Usuario/OneDrive/Ana%20Ruth%20Zam/Ruth%20Zambrano
+2025-10-16 19:24:15.055 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2025-10-16 19:24:15.055 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.rmv/config
+2025-10-16 19:24:15.055 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2025-10-16 19:24:15.064 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/Usuario
+2025-10-16 19:24:15.098 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2025-10-16 19:24:15.106 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2025-10-16 19:24:15.119 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2025-10-16 19:24:15.130 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Users\Usuario\OneDrive\Ana Ruth Zam\Ruth Zambrano\.rmv\documentation\UNIVERSE\custom.json
+2025-10-16 19:24:15.130 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\Usuario\documentation\UNIVERSE\custom.json
+2025-10-16 19:24:15.340 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2025-10-16 19:24:15.340 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano) load start
+2025-10-16 19:24:15.371 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2025-10-16 19:24:15.615 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2025-10-16 19:24:15.615 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2025-10-16 19:24:15.631 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2025-10-16 19:24:15.631 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2025-10-16 19:24:15.631 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano) load end
+2025-10-16 19:24:15.631 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/config/capability) doesn't exist or read error, default config will take effect
+2025-10-16 19:24:15.631 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2025-10-16 19:24:15.631 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2025-10-16 19:24:15.647 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2025-10-16 19:24:15.666 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2025-10-16 19:24:15.774 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Ruth Zambrano account
+2025-10-16 19:24:15.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 19:24:15.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 19:24:15.805 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Ruth Zambrano, its period 5s 
+2025-10-16 19:24:15.808 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for .git, its period 5s 
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for logs, its period 5s 
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2025-10-16 19:24:15.810 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for objects, its period 5s 
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 19:24:15.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 19:24:15.837 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2025-10-16 19:24:15.839 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2025-10-16 19:24:15.839 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-10-16 19:24:15.841 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-10-16 19:24:15.843 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2025-10-16 19:24:15.852 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=Ruth Zambrano, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano, type=PREDICT}
+Account{name=remotes, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/logs/refs/remotes, type=PREDICT}
+Account{name=refs, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/refs, type=PREDICT}
+Account{name=.git, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git, type=PREDICT}
+Account{name=remotes, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/refs/remotes, type=PREDICT}
+Account{name=logs, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/logs, type=PREDICT}
+Account{name=refs, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/logs/refs, type=PREDICT}
+Account{name=objects, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git/objects, type=PREDICT}
+2025-10-16 19:24:15.852 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2025-10-16 19:24:15.855 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\Usuario/.rmv/config) watcher launch successful
+2025-10-16 19:24:22.630 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano)
+2025-10-16 19:24:32.409 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
