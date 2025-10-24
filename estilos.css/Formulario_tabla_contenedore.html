@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Estudiantes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Registro usuario</h1>
+    <div class="container">
+        <form action="#" method="post">
+        <table>
+            <caption>Formulario de Registro</caption>
+            <tr>
+                <td><label for="nombre">Nombre completo:</label></td>
+                <td><input type="text" id="nombre" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="correo">Correo electrónico:</label></td>
+                <td><input type="email" id="correo" name="correo" required></td>
+            </tr>
+            <tr>
+                <td><label for="clave">Contraseña:</label></td>
+                <td><input type="password" id="clave" name="clave" required></td>
+            </tr>
+            <tr>
+                <td>Género:</td>
+                <td class="genero">
+                    <input type="radio" id="masculino" name="genero" value="Masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" name="genero" value="Femenino">
+                    <label for="femenino">Femenino</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ciudad">Ciudad:</label></td>
+                <td>
+                    <select id="ciudad" name="ciudad">
+                        <option value="">Seleccione...</option>
+                        <option value="Bogotá">Bogotá</option>
+                        <option value="Medellín">Medellín</option>
+                        <option value="Cali">Cali</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comentario">Comentario:</label></td>
+                <td><textarea id="comentario" name="comentario" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="botones">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
