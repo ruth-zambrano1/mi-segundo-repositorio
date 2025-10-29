@@ -1,7 +1,7 @@
 /* Estilos generales de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
+    background-color: #20181b;
     margin: 0;
     padding: 0;
 }
@@ -10,17 +10,17 @@ body {
 .container {
     width: 60%;
     max-width: 700px;
-    background-color: #ffffff;
+    background-color: #b5e2e2;
     margin: 50px auto;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(188, 233, 233, 0.1);
 }
 
 /* Título principal */
 h1 {
     text-align: center;
-    color: #333333;
+    color: #f851af;
     margin-bottom: 25px;
 }
 
@@ -39,7 +39,7 @@ td {
 /* Etiquetas de los campos */
 label {
     font-weight: bold;
-    color: #444444;
+    color: #5a0467;
 }
 
 /* Campos de entrada */
@@ -50,7 +50,7 @@ select,
 textarea {
     width: 95%;
     padding: 8px;
-    border: 1px solid #cccccc;
+    border: 1px solid #af47c2;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -58,8 +58,8 @@ textarea {
 /* Botones */
 input[type="submit"],
 input[type="reset"] {
-    background-color: #2053be;
-    color: #ffffff;
+    background-color: #49e6fb;
+    color: #3bf0ea;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -69,7 +69,7 @@ input[type="reset"] {
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background-color: #1048af;
+    background-color: #9907b3;
 }
 
 /* Centrar los botones en la última fila */
