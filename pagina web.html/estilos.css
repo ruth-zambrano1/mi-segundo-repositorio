@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff03ffb3; /* Color de fondo */
+    background-image: url('https://us.123rf.com/450wm/adrenalinapura/adrenalinapura2004/adrenalinapura200400200/144797825-silueta-de-pareja-de-gatos.jpg?ver=6imagen-de-fondo.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño de la pantalla */
+    background-position: center; /* Centrar la imagen */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #741a8e;
+    color: #700a98;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: 1em;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.iniciar-sesion {
+    background-color: #f9f7f9af;
+    color: #320352;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.imagen-fondo {
+    background-image: url('imagen-de-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f6f8;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.foto-descripcion {
+  display: inline-block;
+  margin: 10px;
+}
+
+.foto-descripcion img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.foto-descripcion p {
+  font-size: 14px;
+  color: #fdfafa;
+  text-align: center;
+  margin-top: 10px;
+}
+.redes-sociales li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: auto;
+}
+body {
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #f5efef; /* Color del texto */
+    line-height: 1.5; /* Altura de la línea */
+}
+footer {
+    background-color: #370252;
+    color: #dcd1e3;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
