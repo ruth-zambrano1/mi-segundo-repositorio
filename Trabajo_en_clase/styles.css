@@ -1,0 +1,50 @@
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #bffaff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la cabecera */
+thead {
+    background-color: #00fbff;
+    color: rgb(3, 89, 86);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #067d71;
+}
+
+
+/* Filas con colores alternos */
+tbody tr:nth-child(even) {
+    background-color: #4df6ff;
+}
+
+/* Efecto hover */
+tbody tr:hover {
+    background-color: #02f2ff;
+}
+
+/* Estilos para centrar texto en columnas*/
+th {
+    text-align: center;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+}
+    th, td {
+        padding: 8px;
+}
+
+}
