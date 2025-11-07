@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora Completa</title>
+<style>
+    body {
+        background-color: #e0a8f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+
+    .calculadora {
+        background: #e0bafc;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        width: 300px;
+    }
+
+    .calculadora h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .pantalla {
+        width: 93%;
+        height: 60px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 24px;
+        text-align: right;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .botones {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 18px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background-color: #ddd;
+    }
+
+    .operacion {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .igual {
+        background-color: #28a745;
+        color: white;
+        grid-column: span 2;
+    }
+
+    .limpiar {
+        background-color: #dc3545;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<div class="calculadora">
+    <h2>Calculadora</h2>
+    <form name="formulario">
+        <input type="text" id="pantalla" class="pantalla" readonly>
+    </form>
+
+    <div class="botones">
+        <!-- Fila 1 -->
+        <button type="button" class="limpiar" onclick="borrar()">C</button>
+        <button type="button" onclick="retroceso()">⌫</button>
+        <button type="button" onclick="agregar('*')">%</button>
+        <button type="button" onclick="agregar('/')">÷</button>
+
+        <!-- Fila 2 -->
+        <button type="button" onclick="agregar('7')">7</button>
+        <button type="button" onclick="agregar('8')">8</button>
+        <button type="button" onclick="agregar('9')">9</button>
+        <button type="button" class="operacion" onclick="agregar('×')">×</button>
+
+        <!-- Fila 3 -->
+        <button type="button" onclick="agregar('4')">4</button>
+        <button type="button" onclick="agregar('5')">5</button>
+        <button type="button" onclick="agregar('6')">6</button>
+        <button type="button" class="operacion" onclick="agregar('-')">-</button>
+
+        <!-- Fila 4 -->
+        <button type="button" onclick="agregar('1')">1</button>
+        <button type="button" onclick="agregar('2')">2</button>
+        <button type="button" onclick="agregar('3')">3</button>
+        <button type="button" class="operacion" onclick="agregar('+')">+</button>
+
+        <!-- Fila 5 -->
+        <button type="button" onclick="agregar('.')">.</button>
+        <button type="button" onclick="agregar('0')">0</button>
+        <button type="button" class="igual" onclick="calcular()">=</button
+    </div>
+</div>
+
+<script>
+    const pantalla = document.getElementById('pantalla');
+
+    function agregar(valor) {
+        pantalla.value += valor;
+    }
+
+    function borrar() {
+        pantalla.value = '';
+    }
+
+    function retroceso() {
+        pantalla.value = pantalla.value.slice(0, -1);
+    }
+
+    function calcular() {
+        try {
+            pantalla.value = eval(pantalla.value);
+        } catch {
+            pantalla.value = 'Error';
+        }
+    }
+</script>
+
+</body>
+</html>
