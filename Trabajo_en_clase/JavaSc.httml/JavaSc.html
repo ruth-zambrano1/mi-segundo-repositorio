@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Clics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f3f3f3;
+      padding-top: 50px;
+    }
+
+    h1 {
+      color: #d260ff;
+    }
+
+    #contador {
+      font-size: 2em;
+      color: #ac00d7;
+      margin: 20px 0;
+    }
+
+    button {
+      background-color: #6fda88;
+      color: rgb(0, 0, 0);
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #03ddff;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Contador de Clics</h1>
+  <p>Has hecho clic <span id="contador">0</span> veces.</p>
+  <button id="boton">Haz clic aquí</button>
+
+  <script>
+    // Valor inicial del contador
+    let contador = 0;
+
+    // Referencias a los elementos del DOM
+    const contadorElemento = document.getElementById('contador');
+    const boton = document.getElementById('boton');
+
+    // Evento para incrementar el contador
+    boton.addEventListener('click', () => {
+      contador++;
+      contadorElemento.textContent = contador;
+    });
+  </script>
+</body>
+</html>

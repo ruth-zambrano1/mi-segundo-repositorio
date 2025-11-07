@@ -10,7 +10,7 @@
 .form-container {
   width: 100%;
   max-width: 400px;
-  background: #fff;
+  background: #00ffea;
   padding: 20px;
   margin: 50px auto;
   border-radius: 10px;
@@ -60,7 +60,7 @@ button {
   border-radius: 5px;
 }
 button:hover {
-    background: #0056b3;
+    background: #0af9f9;
 }
 
 /* Diseño responsive */
