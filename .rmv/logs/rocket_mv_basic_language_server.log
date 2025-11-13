@@ -75,3 +75,5 @@ Account{name=objects, path=C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/
 2025-11-13 13:02:55.970 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
 2025-11-13 13:02:55.984 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\Usuario/.rmv/config) watcher launch successful
 2025-11-13 13:02:59.215 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/Trabajo_en_clase/Calculadoratrabajo)
+2025-11-13 13:19:31.573 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/.git)
+2025-11-13 13:19:45.753 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/Usuario/OneDrive/Ana Ruth Zam/Ruth Zambrano/Trabajo_en_clase/Calculadoratrabajo)
